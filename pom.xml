@@ -1827,9 +1827,9 @@
                 <version>${failureaccess.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.commons</groupId>
+                <groupId>org.wso2.orbit.org.apache.commons</groupId>
                 <artifactId>commons-configuration2</artifactId>
-                <version>${commons.configuration2.version}</version>
+                <version>${commons.configuration2.orbit.version}</version>
             </dependency>
             <dependency>
                 <groupId>jakarta.servlet</groupId>
@@ -2458,7 +2458,7 @@
         <osgi.framework.imp.pkg.version>[1.9.0,2.0.0)</osgi.framework.imp.pkg.version>
 
         <jakarta.servlet.api.version>6.1.0</jakarta.servlet.api.version>
-        <commons.configuration2.version>2.12.0</commons.configuration2.version>
+        <commons.configuration2.orbit.version>2.15.1.wso2v2</commons.configuration2.orbit.version>
         <commons.configuration2.imp.pkg.version>[2.12.0,3.0)</commons.configuration2.imp.pkg.version>
 
         <h2.engine.orbit.version>1.3.175.wso2v1</h2.engine.orbit.version>

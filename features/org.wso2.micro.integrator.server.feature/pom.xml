@@ -300,7 +300,7 @@
                                 <bundleDef>javax.servlet:javax.servlet-api:${javax.servlet.api.version}</bundleDef>
                                 <bundleDef>javax.servlet.jsp:javax.servlet.jsp-api:${javax.servlet.jsp-api.version}</bundleDef>
                                 <bundleDef>javax.el:javax.el-api:${javax.el-api.version}</bundleDef>
-                                <bundleDef>org.apache.commons:commons-configuration2:${commons.configuration2.version}</bundleDef>
+                                <bundleDef>org.wso2.orbit.org.apache.commons:commons-configuration2:${commons.configuration2.orbit.version}</bundleDef>
                                 <bundleDef>
                                     org.wso2.ei:org.wso2.micro.integrator.management.apis:${project.version}
                                 </bundleDef>
