@@ -672,7 +672,17 @@ public class ServiceBusInitializer {
             return;
         }
         String startTime = String.valueOf(System.currentTimeMillis());
+        AxisConfiguration axisConfig = synapseConfig.getAxisConfiguration();
         for (ProxyService proxy : synapseConfig.getProxyServices()) {
+            // Skip proxies without an Axis2 service, as the ProxyServiceDeployer does not report them as deployed.
+            // getServiceForActivation also returns inactive (startOnLoad=false) services.
+            if (axisConfig == null || axisConfig.getServiceForActivation(proxy.getName()) == null) {
+                if (log.isDebugEnabled()) {
+                    log.debug("Skipping the startup artifact deployment event for the proxy service: "
+                            + proxy.getName() + " since it is not deployed in the Axis2 configuration");
+                }
+                continue;
+            }
             notifyArtifactDeployment(handler, proxy.getName(), SynapseConstants.PROXY_SERVICE_TYPE, startTime);
         }
         for (API api : synapseConfig.getAPIs()) {
