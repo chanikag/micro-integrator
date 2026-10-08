@@ -2148,7 +2148,7 @@
         <version.jaxb.api>2.4.0-b180830.0359</version.jaxb.api>
         <com.sun.jaxb.version>2.3.0</com.sun.jaxb.version>
         <com.sun.jaxb.impl.version>2.3.1</com.sun.jaxb.impl.version>
-        <synapse.version>4.1.0-wso2v73</synapse.version>
+        <synapse.version>4.1.0-wso2v78</synapse.version>
         <imp.pkg.version.synapse>[4.1.0, 4.2.0)</imp.pkg.version.synapse>
         <carbon.crypto.version>1.1.3</carbon.crypto.version>
         <carbon.crypto.api.imp.pkg.version.range>[1.1.0,1.2.0)</carbon.crypto.api.imp.pkg.version.range>
@@ -2163,7 +2163,7 @@
 
         <cipher.tool.version>1.2.10</cipher.tool.version>
         <axis2.transport.version>2.0.0-wso2v91</axis2.transport.version>
-        <transport.http.netty.version>6.4.3</transport.http.netty.version>
+        <transport.http.netty.version>6.4.4</transport.http.netty.version>
 
         <esotericsoftware.kryo.version>3.0.3</esotericsoftware.kryo.version>
         <esotericsoftware.minlog.version>1.3.1</esotericsoftware.minlog.version>
@@ -2177,8 +2177,8 @@
 
         <carbon.analytics.common.version>5.2.67</carbon.analytics.common.version>
         <carbon.analytics.common.imp.pkg.version>[5.2.0, 6.0.0)</carbon.analytics.common.imp.pkg.version>
-        <fasterxml.jackson.version>2.22.2</fasterxml.jackson.version>
-        <fasterxml.jackson.datatype.version>2.22.2</fasterxml.jackson.datatype.version>
+        <fasterxml.jackson.version>2.22.3</fasterxml.jackson.version>
+        <fasterxml.jackson.datatype.version>2.22.3</fasterxml.jackson.datatype.version>
         <fasterxml.jackson.annotations.version>2.22</fasterxml.jackson.annotations.version>
         <com.hubspot.immutables.version>1.11.4</com.hubspot.immutables.version>
         <carbon.commons.version>4.7.55</carbon.commons.version>
@@ -2197,7 +2197,7 @@
         <orbit.version.poi.ooxml>5.5.1.wso2v1</orbit.version.poi.ooxml>
         <org.wso2.json.version>3.0.0.wso2v8</org.wso2.json.version>
         <version.equinox.http.servlet>1.8.100</version.equinox.http.servlet>
-        <version.tomcat>11.0.21</version.tomcat>
+        <version.tomcat>11.0.26</version.tomcat>
         <orbit.version.tomcat.jsp.api>${version.tomcat}.wso2v1</orbit.version.tomcat.jsp.api>
         <orbit.version.tomcat.el.api>${version.tomcat}.wso2v1</orbit.version.tomcat.el.api>
         <orbit.version.tomcat.servlet.api>${version.tomcat}.wso2v1</orbit.version.tomcat.servlet.api>
@@ -2281,8 +2281,8 @@
         <google.guava.version>33.6.0-jre</google.guava.version>
         <ca.uhn.hapi.wso2.version>2.4.0.wso2v2</ca.uhn.hapi.wso2.version>
         <junit.version>4.12</junit.version>
-        <netty.wso2.version>4.2.16.wso2v1</netty.wso2.version>
-        <netty.tcnative.version>2.0.80.Final</netty.tcnative.version>
+        <netty.wso2.version>4.2.18.wso2v1</netty.wso2.version>
+        <netty.tcnative.version>2.0.84.Final</netty.tcnative.version>
         <jacoco.agent.version>0.8.12</jacoco.agent.version>
         <activemq.version>5.2.0</activemq.version>
         <activemq.broker.version>5.15.2</activemq.broker.version>
